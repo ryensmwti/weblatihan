@@ -1,0 +1,138 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-color: #E0C1A5;
+  font-family: verdana,tahoma,Sans-Serif;
+}
+
+.container-navbar {
+  font-size: 10px;
+  background-color:#BB805B;
+  width: 100%;
+  height: 50px;
+}
+.ul-navbar {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.li-navbar {
+  list-style-type:none;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+.li-navbar:hover {
+  background-color: #E0C1A5;
+  transition: 0.3s ease;
+  border-radius: 10px;
+}
+.a-navbar{
+  color: white;
+  text-decoration: none;
+}
+
+.container-konten {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.img-konten {
+  width: 60%;
+  max-width: 500px;
+  height: 60% auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.deskripsi-container {
+  position: relative;
+  top: 150px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.deskripsi-1 {
+  position:relative;
+  top: -40px;
+  font-size: 30px;
+  text-align: center;
+}
+.deskripsi-tambahan {
+  position: relative;
+  top: -20px;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  color: blue;
+}
+.deskripsi-2 {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+p {
+  margin-top: 20px;
+}
+
+
+.container-footer {
+  margin-top: 20px;
+  background-color: #BB805B;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 900px;
+}
+.h3-footer {
+  font-size: 20px;
+}
+
+---------------image
+.konten-onyet {
+  height: 100px;
+}
+.img-onyet {
+  height: 100%;
+  width: 100%;
+}
+.img-onyet2 {
+  height: 100%;
+  width: 100%;
+}
+--------------batas image
+---------------ila
+.container-konten2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.img-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.ila-konten {
+  width: 50%;
+  height: 50%;
+  border-radius: 10%;
+}
+.png {
+  width: 20%;
+  height: 20%;
+}
+--------------batas ila
